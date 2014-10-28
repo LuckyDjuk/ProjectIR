@@ -15,6 +15,162 @@
 		F3620D3219FF79650042842D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3620D3119FF79650042842D /* Images.xcassets */; };
 		F3620D3519FF79650042842D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3620D3319FF79650042842D /* LaunchScreen.xib */; };
 		F3620D4119FF79650042842D /* IRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3620D4019FF79650042842D /* IRTests.m */; };
+		F3620D4F19FF7A780042842D /* HumanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3620D4C19FF7A780042842D /* HumanModel.m */; };
+		F3620D5019FF7A780042842D /* InjuryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3620D4E19FF7A780042842D /* InjuryModel.m */; };
+		F3620DF619FF7AFC0042842D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5319FF7AFC0042842D /* back.png */; };
+		F3620DF719FF7AFC0042842D /* backcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5419FF7AFC0042842D /* backcontusion.png */; };
+		F3620DF819FF7AFC0042842D /* backfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5519FF7AFC0042842D /* backfracture.png */; };
+		F3620DF919FF7AFC0042842D /* backsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5619FF7AFC0042842D /* backsprain.png */; };
+		F3620DFA19FF7AFC0042842D /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5719FF7AFC0042842D /* head.png */; };
+		F3620DFB19FF7AFC0042842D /* headconcussion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5819FF7AFC0042842D /* headconcussion.png */; };
+		F3620DFC19FF7AFC0042842D /* headcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5919FF7AFC0042842D /* headcontusion.png */; };
+		F3620DFD19FF7AFC0042842D /* headfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5A19FF7AFC0042842D /* headfracture.png */; };
+		F3620DFE19FF7AFC0042842D /* headwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5B19FF7AFC0042842D /* headwound.png */; };
+		F3620DFF19FF7AFC0042842D /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5D19FF7AFC0042842D /* hand.png */; };
+		F3620E0019FF7AFC0042842D /* left arm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5E19FF7AFC0042842D /* left arm.png */; };
+		F3620E0119FF7AFC0042842D /* lelbow.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D5F19FF7AFC0042842D /* lelbow.png */; };
+		F3620E0219FF7AFC0042842D /* lelbowcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6019FF7AFC0042842D /* lelbowcontusion.png */; };
+		F3620E0319FF7AFC0042842D /* lelbowdislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6119FF7AFC0042842D /* lelbowdislocation.png */; };
+		F3620E0419FF7AFC0042842D /* lelbowfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6219FF7AFC0042842D /* lelbowfracture.png */; };
+		F3620E0519FF7AFC0042842D /* lelbowsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6319FF7AFC0042842D /* lelbowsprain.png */; };
+		F3620E0619FF7AFC0042842D /* lelbowwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6419FF7AFC0042842D /* lelbowwound.png */; };
+		F3620E0719FF7AFC0042842D /* overarm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6519FF7AFC0042842D /* overarm.png */; };
+		F3620E0819FF7AFC0042842D /* shoulder.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6619FF7AFC0042842D /* shoulder.png */; };
+		F3620E0919FF7AFC0042842D /* underarm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6719FF7AFC0042842D /* underarm.png */; };
+		F3620E0A19FF7AFC0042842D /* wrist.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6819FF7AFC0042842D /* wrist.png */; };
+		F3620E0B19FF7AFC0042842D /* ankle.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6A19FF7AFC0042842D /* ankle.png */; };
+		F3620E0C19FF7AFC0042842D /* left foot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6B19FF7AFC0042842D /* left foot.png */; };
+		F3620E0D19FF7AFC0042842D /* leg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6C19FF7AFC0042842D /* leg.png */; };
+		F3620E0E19FF7AFC0042842D /* thigh.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6D19FF7AFC0042842D /* thigh.png */; };
+		F3620E0F19FF7AFC0042842D /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D6F19FF7AFC0042842D /* hand.png */; };
+		F3620E1019FF7AFC0042842D /* overarm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7019FF7AFC0042842D /* overarm.png */; };
+		F3620E1119FF7AFC0042842D /* relbow.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7119FF7AFC0042842D /* relbow.png */; };
+		F3620E1219FF7AFC0042842D /* relbowcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7219FF7AFC0042842D /* relbowcontusion.png */; };
+		F3620E1319FF7AFC0042842D /* relbowdislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7319FF7AFC0042842D /* relbowdislocation.png */; };
+		F3620E1419FF7AFC0042842D /* relbowfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7419FF7AFC0042842D /* relbowfracture.png */; };
+		F3620E1519FF7AFC0042842D /* relbowsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7519FF7AFC0042842D /* relbowsprain.png */; };
+		F3620E1619FF7AFC0042842D /* relbowwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7619FF7AFC0042842D /* relbowwound.png */; };
+		F3620E1719FF7AFC0042842D /* right arm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7719FF7AFC0042842D /* right arm.png */; };
+		F3620E1819FF7AFC0042842D /* shoulder.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7819FF7AFC0042842D /* shoulder.png */; };
+		F3620E1919FF7AFC0042842D /* underarm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7919FF7AFC0042842D /* underarm.png */; };
+		F3620E1A19FF7AFC0042842D /* wrist.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7A19FF7AFC0042842D /* wrist.png */; };
+		F3620E1B19FF7AFC0042842D /* ankle.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7C19FF7AFC0042842D /* ankle.png */; };
+		F3620E1C19FF7AFC0042842D /* leg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7D19FF7AFC0042842D /* leg.png */; };
+		F3620E1D19FF7AFC0042842D /* right foot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7E19FF7AFC0042842D /* right foot.png */; };
+		F3620E1E19FF7AFC0042842D /* thigh.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D7F19FF7AFC0042842D /* thigh.png */; };
+		F3620E1F19FF7AFC0042842D /* fhead.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8119FF7AFC0042842D /* fhead.png */; };
+		F3620E2019FF7AFC0042842D /* fheadconcussion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8219FF7AFC0042842D /* fheadconcussion.png */; };
+		F3620E2119FF7AFC0042842D /* fheadcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8319FF7AFC0042842D /* fheadcontusion.png */; };
+		F3620E2219FF7AFC0042842D /* fheadfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8419FF7AFC0042842D /* fheadfracture.png */; };
+		F3620E2319FF7AFC0042842D /* fheadwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8519FF7AFC0042842D /* fheadwound.png */; };
+		F3620E2419FF7AFC0042842D /* fleft arm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8719FF7AFC0042842D /* fleft arm.png */; };
+		F3620E2519FF7AFC0042842D /* flhand.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8819FF7AFC0042842D /* flhand.png */; };
+		F3620E2619FF7AFC0042842D /* flhandcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8919FF7AFC0042842D /* flhandcontusion.png */; };
+		F3620E2719FF7AFC0042842D /* flhanddislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8A19FF7AFC0042842D /* flhanddislocation.png */; };
+		F3620E2819FF7AFC0042842D /* flhandfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8B19FF7AFC0042842D /* flhandfracture.png */; };
+		F3620E2919FF7AFC0042842D /* flhandsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8C19FF7AFC0042842D /* flhandsprain.png */; };
+		F3620E2A19FF7AFC0042842D /* flhandwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8D19FF7AFC0042842D /* flhandwound.png */; };
+		F3620E2B19FF7AFC0042842D /* flhumerous.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8E19FF7AFC0042842D /* flhumerous.png */; };
+		F3620E2C19FF7AFC0042842D /* flhumerouscontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D8F19FF7AFC0042842D /* flhumerouscontusion.png */; };
+		F3620E2D19FF7AFC0042842D /* flhumerousfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9019FF7AFC0042842D /* flhumerousfracture.png */; };
+		F3620E2E19FF7AFC0042842D /* flhumerouswound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9119FF7AFC0042842D /* flhumerouswound.png */; };
+		F3620E2F19FF7AFC0042842D /* flshoulder.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9219FF7AFC0042842D /* flshoulder.png */; };
+		F3620E3019FF7AFC0042842D /* flshouldercontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9319FF7AFC0042842D /* flshouldercontusion.png */; };
+		F3620E3119FF7AFC0042842D /* flshoulderdislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9419FF7AFC0042842D /* flshoulderdislocation.png */; };
+		F3620E3219FF7AFC0042842D /* flshoulderfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9519FF7AFC0042842D /* flshoulderfracture.png */; };
+		F3620E3319FF7AFC0042842D /* flshoulderwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9619FF7AFC0042842D /* flshoulderwound.png */; };
+		F3620E3419FF7AFC0042842D /* flunderarm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9719FF7AFC0042842D /* flunderarm.png */; };
+		F3620E3519FF7AFC0042842D /* flunderarmcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9819FF7AFC0042842D /* flunderarmcontusion.png */; };
+		F3620E3619FF7AFC0042842D /* flunderarmfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9919FF7AFC0042842D /* flunderarmfracture.png */; };
+		F3620E3719FF7AFC0042842D /* flunderarmwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9A19FF7AFC0042842D /* flunderarmwound.png */; };
+		F3620E3819FF7AFC0042842D /* flwrist.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9B19FF7AFC0042842D /* flwrist.png */; };
+		F3620E3919FF7AFC0042842D /* flwristcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9C19FF7AFC0042842D /* flwristcontusion.png */; };
+		F3620E3A19FF7AFC0042842D /* flwristfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9D19FF7AFC0042842D /* flwristfracture.png */; };
+		F3620E3B19FF7AFC0042842D /* flwristsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9E19FF7AFC0042842D /* flwristsprain.png */; };
+		F3620E3C19FF7AFC0042842D /* flwristwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620D9F19FF7AFC0042842D /* flwristwound.png */; };
+		F3620E3D19FF7AFC0042842D /* fleft foot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA119FF7AFC0042842D /* fleft foot.png */; };
+		F3620E3E19FF7AFC0042842D /* lankle.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA219FF7AFC0042842D /* lankle.png */; };
+		F3620E3F19FF7AFC0042842D /* lanklecontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA319FF7AFC0042842D /* lanklecontusion.png */; };
+		F3620E4019FF7AFC0042842D /* lankledislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA419FF7AFC0042842D /* lankledislocation.png */; };
+		F3620E4119FF7AFC0042842D /* lanklefracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA519FF7AFC0042842D /* lanklefracture.png */; };
+		F3620E4219FF7AFC0042842D /* lanklesprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA619FF7AFC0042842D /* lanklesprain.png */; };
+		F3620E4319FF7AFC0042842D /* lfemur.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA719FF7AFC0042842D /* lfemur.png */; };
+		F3620E4419FF7AFC0042842D /* lfemurcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA819FF7AFC0042842D /* lfemurcontusion.png */; };
+		F3620E4519FF7AFC0042842D /* lfemurfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DA919FF7AFC0042842D /* lfemurfracture.png */; };
+		F3620E4619FF7AFC0042842D /* lfemurwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DAA19FF7AFC0042842D /* lfemurwound.png */; };
+		F3620E4719FF7AFC0042842D /* lfoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DAB19FF7AFC0042842D /* lfoot.png */; };
+		F3620E4819FF7AFC0042842D /* lfootcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DAC19FF7AFC0042842D /* lfootcontusion.png */; };
+		F3620E4919FF7AFC0042842D /* lfootdislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DAD19FF7AFC0042842D /* lfootdislocation.png */; };
+		F3620E4A19FF7AFC0042842D /* lfootfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DAE19FF7AFC0042842D /* lfootfracture.png */; };
+		F3620E4B19FF7AFC0042842D /* lfootsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DAF19FF7AFC0042842D /* lfootsprain.png */; };
+		F3620E4C19FF7AFC0042842D /* lfootwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB019FF7AFC0042842D /* lfootwound.png */; };
+		F3620E4D19FF7AFC0042842D /* lknee.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB119FF7AFC0042842D /* lknee.png */; };
+		F3620E4E19FF7AFC0042842D /* lkneecontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB219FF7AFC0042842D /* lkneecontusion.png */; };
+		F3620E4F19FF7AFC0042842D /* lkneedislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB319FF7AFC0042842D /* lkneedislocation.png */; };
+		F3620E5019FF7AFC0042842D /* lkneefracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB419FF7AFC0042842D /* lkneefracture.png */; };
+		F3620E5119FF7AFC0042842D /* lkneesprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB519FF7AFC0042842D /* lkneesprain.png */; };
+		F3620E5219FF7AFC0042842D /* lkneewound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB619FF7AFC0042842D /* lkneewound.png */; };
+		F3620E5319FF7AFC0042842D /* lleg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB719FF7AFC0042842D /* lleg.png */; };
+		F3620E5419FF7AFC0042842D /* llegcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB819FF7AFC0042842D /* llegcontusion.png */; };
+		F3620E5519FF7AFC0042842D /* llegfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DB919FF7AFC0042842D /* llegfracture.png */; };
+		F3620E5619FF7AFC0042842D /* llegwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DBA19FF7AFC0042842D /* llegwound.png */; };
+		F3620E5719FF7AFC0042842D /* fright arm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DBC19FF7AFC0042842D /* fright arm.png */; };
+		F3620E5819FF7AFC0042842D /* rhand.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DBD19FF7AFC0042842D /* rhand.png */; };
+		F3620E5919FF7AFC0042842D /* rhandcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DBE19FF7AFC0042842D /* rhandcontusion.png */; };
+		F3620E5A19FF7AFC0042842D /* rhanddislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DBF19FF7AFC0042842D /* rhanddislocation.png */; };
+		F3620E5B19FF7AFC0042842D /* rhandfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC019FF7AFC0042842D /* rhandfracture.png */; };
+		F3620E5C19FF7AFC0042842D /* rhandsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC119FF7AFC0042842D /* rhandsprain.png */; };
+		F3620E5D19FF7AFC0042842D /* rhandwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC219FF7AFC0042842D /* rhandwound.png */; };
+		F3620E5E19FF7AFC0042842D /* rhumerous.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC319FF7AFC0042842D /* rhumerous.png */; };
+		F3620E5F19FF7AFC0042842D /* rhumerouscontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC419FF7AFC0042842D /* rhumerouscontusion.png */; };
+		F3620E6019FF7AFC0042842D /* rhumerousfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC519FF7AFC0042842D /* rhumerousfracture.png */; };
+		F3620E6119FF7AFC0042842D /* rhumerouswound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC619FF7AFC0042842D /* rhumerouswound.png */; };
+		F3620E6219FF7AFC0042842D /* rshoulder.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC719FF7AFC0042842D /* rshoulder.png */; };
+		F3620E6319FF7AFC0042842D /* rshouldercontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC819FF7AFC0042842D /* rshouldercontusion.png */; };
+		F3620E6419FF7AFC0042842D /* rshoulderdislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DC919FF7AFC0042842D /* rshoulderdislocation.png */; };
+		F3620E6519FF7AFC0042842D /* rshoulderfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DCA19FF7AFC0042842D /* rshoulderfracture.png */; };
+		F3620E6619FF7AFC0042842D /* rshoulderwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DCB19FF7AFC0042842D /* rshoulderwound.png */; };
+		F3620E6719FF7AFC0042842D /* runderarm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DCC19FF7AFC0042842D /* runderarm.png */; };
+		F3620E6819FF7AFC0042842D /* runderarmcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DCD19FF7AFC0042842D /* runderarmcontusion.png */; };
+		F3620E6919FF7AFC0042842D /* runderarmfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DCE19FF7AFC0042842D /* runderarmfracture.png */; };
+		F3620E6A19FF7AFC0042842D /* runderarmwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DCF19FF7AFC0042842D /* runderarmwound.png */; };
+		F3620E6B19FF7AFC0042842D /* rwrist.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD019FF7AFC0042842D /* rwrist.png */; };
+		F3620E6C19FF7AFC0042842D /* rwristcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD119FF7AFC0042842D /* rwristcontusion.png */; };
+		F3620E6D19FF7AFC0042842D /* rwristfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD219FF7AFC0042842D /* rwristfracture.png */; };
+		F3620E6E19FF7AFC0042842D /* rwristsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD319FF7AFC0042842D /* rwristsprain.png */; };
+		F3620E6F19FF7AFC0042842D /* rwristwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD419FF7AFC0042842D /* rwristwound.png */; };
+		F3620E7019FF7AFC0042842D /* fright foot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD619FF7AFC0042842D /* fright foot.png */; };
+		F3620E7119FF7AFC0042842D /* rankle.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD719FF7AFC0042842D /* rankle.png */; };
+		F3620E7219FF7AFC0042842D /* ranklecontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD819FF7AFC0042842D /* ranklecontusion.png */; };
+		F3620E7319FF7AFC0042842D /* rankledislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DD919FF7AFC0042842D /* rankledislocation.png */; };
+		F3620E7419FF7AFC0042842D /* ranklefracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DDA19FF7AFC0042842D /* ranklefracture.png */; };
+		F3620E7519FF7AFC0042842D /* ranklesprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DDB19FF7AFC0042842D /* ranklesprain.png */; };
+		F3620E7619FF7AFC0042842D /* ranklewound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DDC19FF7AFC0042842D /* ranklewound.png */; };
+		F3620E7719FF7AFC0042842D /* rfemur.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DDD19FF7AFC0042842D /* rfemur.png */; };
+		F3620E7819FF7AFC0042842D /* rfemurcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DDE19FF7AFC0042842D /* rfemurcontusion.png */; };
+		F3620E7919FF7AFC0042842D /* rfemurfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DDF19FF7AFC0042842D /* rfemurfracture.png */; };
+		F3620E7A19FF7AFC0042842D /* rfemurwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE019FF7AFC0042842D /* rfemurwound.png */; };
+		F3620E7B19FF7AFC0042842D /* rfoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE119FF7AFC0042842D /* rfoot.png */; };
+		F3620E7C19FF7AFC0042842D /* rfootcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE219FF7AFC0042842D /* rfootcontusion.png */; };
+		F3620E7D19FF7AFC0042842D /* rfootdislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE319FF7AFC0042842D /* rfootdislocation.png */; };
+		F3620E7E19FF7AFC0042842D /* rfootfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE419FF7AFC0042842D /* rfootfracture.png */; };
+		F3620E7F19FF7AFC0042842D /* rfootsprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE519FF7AFC0042842D /* rfootsprain.png */; };
+		F3620E8019FF7AFC0042842D /* rfootwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE619FF7AFC0042842D /* rfootwound.png */; };
+		F3620E8119FF7AFC0042842D /* rknee.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE719FF7AFC0042842D /* rknee.png */; };
+		F3620E8219FF7AFC0042842D /* rkneecontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE819FF7AFC0042842D /* rkneecontusion.png */; };
+		F3620E8319FF7AFC0042842D /* rkneedislocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DE919FF7AFC0042842D /* rkneedislocation.png */; };
+		F3620E8419FF7AFC0042842D /* rkneefracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DEA19FF7AFC0042842D /* rkneefracture.png */; };
+		F3620E8519FF7AFC0042842D /* rkneesprain.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DEB19FF7AFC0042842D /* rkneesprain.png */; };
+		F3620E8619FF7AFC0042842D /* rkneewound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DEC19FF7AFC0042842D /* rkneewound.png */; };
+		F3620E8719FF7AFC0042842D /* rleg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DED19FF7AFC0042842D /* rleg.png */; };
+		F3620E8819FF7AFC0042842D /* rlegcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DEE19FF7AFC0042842D /* rlegcontusion.png */; };
+		F3620E8919FF7AFC0042842D /* rlegfracture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DEF19FF7AFC0042842D /* rlegfracture.png */; };
+		F3620E8A19FF7AFC0042842D /* rlegwound.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DF019FF7AFC0042842D /* rlegwound.png */; };
+		F3620E8B19FF7AFC0042842D /* stomach.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DF119FF7AFC0042842D /* stomach.png */; };
+		F3620E8C19FF7AFC0042842D /* stomachcontusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DF219FF7AFC0042842D /* stomachcontusion.png */; };
+		F3620E8D19FF7AFC0042842D /* stomachiomanifest.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DF319FF7AFC0042842D /* stomachiomanifest.png */; };
+		F3620E8E19FF7AFC0042842D /* humanBack.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DF419FF7AFC0042842D /* humanBack.png */; };
+		F3620E8F19FF7AFC0042842D /* humanFront.png in Resources */ = {isa = PBXBuildFile; fileRef = F3620DF519FF7AFC0042842D /* humanFront.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +198,165 @@
 		F3620D3A19FF79650042842D /* IRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3620D3F19FF79650042842D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3620D4019FF79650042842D /* IRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRTests.m; sourceTree = "<group>"; };
+		F3620D4A19FF7A780042842D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F3620D4B19FF7A780042842D /* HumanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanModel.h; sourceTree = "<group>"; };
+		F3620D4C19FF7A780042842D /* HumanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanModel.m; sourceTree = "<group>"; };
+		F3620D4D19FF7A780042842D /* InjuryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjuryModel.h; sourceTree = "<group>"; };
+		F3620D4E19FF7A780042842D /* InjuryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjuryModel.m; sourceTree = "<group>"; };
+		F3620D5319FF7AFC0042842D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		F3620D5419FF7AFC0042842D /* backcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backcontusion.png; sourceTree = "<group>"; };
+		F3620D5519FF7AFC0042842D /* backfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backfracture.png; sourceTree = "<group>"; };
+		F3620D5619FF7AFC0042842D /* backsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backsprain.png; sourceTree = "<group>"; };
+		F3620D5719FF7AFC0042842D /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		F3620D5819FF7AFC0042842D /* headconcussion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headconcussion.png; sourceTree = "<group>"; };
+		F3620D5919FF7AFC0042842D /* headcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headcontusion.png; sourceTree = "<group>"; };
+		F3620D5A19FF7AFC0042842D /* headfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headfracture.png; sourceTree = "<group>"; };
+		F3620D5B19FF7AFC0042842D /* headwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headwound.png; sourceTree = "<group>"; };
+		F3620D5D19FF7AFC0042842D /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		F3620D5E19FF7AFC0042842D /* left arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left arm.png"; sourceTree = "<group>"; };
+		F3620D5F19FF7AFC0042842D /* lelbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lelbow.png; sourceTree = "<group>"; };
+		F3620D6019FF7AFC0042842D /* lelbowcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lelbowcontusion.png; sourceTree = "<group>"; };
+		F3620D6119FF7AFC0042842D /* lelbowdislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lelbowdislocation.png; sourceTree = "<group>"; };
+		F3620D6219FF7AFC0042842D /* lelbowfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lelbowfracture.png; sourceTree = "<group>"; };
+		F3620D6319FF7AFC0042842D /* lelbowsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lelbowsprain.png; sourceTree = "<group>"; };
+		F3620D6419FF7AFC0042842D /* lelbowwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lelbowwound.png; sourceTree = "<group>"; };
+		F3620D6519FF7AFC0042842D /* overarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overarm.png; sourceTree = "<group>"; };
+		F3620D6619FF7AFC0042842D /* shoulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoulder.png; sourceTree = "<group>"; };
+		F3620D6719FF7AFC0042842D /* underarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underarm.png; sourceTree = "<group>"; };
+		F3620D6819FF7AFC0042842D /* wrist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrist.png; sourceTree = "<group>"; };
+		F3620D6A19FF7AFC0042842D /* ankle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ankle.png; sourceTree = "<group>"; };
+		F3620D6B19FF7AFC0042842D /* left foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left foot.png"; sourceTree = "<group>"; };
+		F3620D6C19FF7AFC0042842D /* leg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leg.png; sourceTree = "<group>"; };
+		F3620D6D19FF7AFC0042842D /* thigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thigh.png; sourceTree = "<group>"; };
+		F3620D6F19FF7AFC0042842D /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		F3620D7019FF7AFC0042842D /* overarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overarm.png; sourceTree = "<group>"; };
+		F3620D7119FF7AFC0042842D /* relbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relbow.png; sourceTree = "<group>"; };
+		F3620D7219FF7AFC0042842D /* relbowcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relbowcontusion.png; sourceTree = "<group>"; };
+		F3620D7319FF7AFC0042842D /* relbowdislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relbowdislocation.png; sourceTree = "<group>"; };
+		F3620D7419FF7AFC0042842D /* relbowfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relbowfracture.png; sourceTree = "<group>"; };
+		F3620D7519FF7AFC0042842D /* relbowsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relbowsprain.png; sourceTree = "<group>"; };
+		F3620D7619FF7AFC0042842D /* relbowwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relbowwound.png; sourceTree = "<group>"; };
+		F3620D7719FF7AFC0042842D /* right arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right arm.png"; sourceTree = "<group>"; };
+		F3620D7819FF7AFC0042842D /* shoulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoulder.png; sourceTree = "<group>"; };
+		F3620D7919FF7AFC0042842D /* underarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underarm.png; sourceTree = "<group>"; };
+		F3620D7A19FF7AFC0042842D /* wrist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrist.png; sourceTree = "<group>"; };
+		F3620D7C19FF7AFC0042842D /* ankle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ankle.png; sourceTree = "<group>"; };
+		F3620D7D19FF7AFC0042842D /* leg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leg.png; sourceTree = "<group>"; };
+		F3620D7E19FF7AFC0042842D /* right foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right foot.png"; sourceTree = "<group>"; };
+		F3620D7F19FF7AFC0042842D /* thigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thigh.png; sourceTree = "<group>"; };
+		F3620D8119FF7AFC0042842D /* fhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fhead.png; sourceTree = "<group>"; };
+		F3620D8219FF7AFC0042842D /* fheadconcussion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fheadconcussion.png; sourceTree = "<group>"; };
+		F3620D8319FF7AFC0042842D /* fheadcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fheadcontusion.png; sourceTree = "<group>"; };
+		F3620D8419FF7AFC0042842D /* fheadfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fheadfracture.png; sourceTree = "<group>"; };
+		F3620D8519FF7AFC0042842D /* fheadwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fheadwound.png; sourceTree = "<group>"; };
+		F3620D8719FF7AFC0042842D /* fleft arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fleft arm.png"; sourceTree = "<group>"; };
+		F3620D8819FF7AFC0042842D /* flhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhand.png; sourceTree = "<group>"; };
+		F3620D8919FF7AFC0042842D /* flhandcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhandcontusion.png; sourceTree = "<group>"; };
+		F3620D8A19FF7AFC0042842D /* flhanddislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhanddislocation.png; sourceTree = "<group>"; };
+		F3620D8B19FF7AFC0042842D /* flhandfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhandfracture.png; sourceTree = "<group>"; };
+		F3620D8C19FF7AFC0042842D /* flhandsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhandsprain.png; sourceTree = "<group>"; };
+		F3620D8D19FF7AFC0042842D /* flhandwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhandwound.png; sourceTree = "<group>"; };
+		F3620D8E19FF7AFC0042842D /* flhumerous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhumerous.png; sourceTree = "<group>"; };
+		F3620D8F19FF7AFC0042842D /* flhumerouscontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhumerouscontusion.png; sourceTree = "<group>"; };
+		F3620D9019FF7AFC0042842D /* flhumerousfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhumerousfracture.png; sourceTree = "<group>"; };
+		F3620D9119FF7AFC0042842D /* flhumerouswound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flhumerouswound.png; sourceTree = "<group>"; };
+		F3620D9219FF7AFC0042842D /* flshoulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flshoulder.png; sourceTree = "<group>"; };
+		F3620D9319FF7AFC0042842D /* flshouldercontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flshouldercontusion.png; sourceTree = "<group>"; };
+		F3620D9419FF7AFC0042842D /* flshoulderdislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flshoulderdislocation.png; sourceTree = "<group>"; };
+		F3620D9519FF7AFC0042842D /* flshoulderfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flshoulderfracture.png; sourceTree = "<group>"; };
+		F3620D9619FF7AFC0042842D /* flshoulderwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flshoulderwound.png; sourceTree = "<group>"; };
+		F3620D9719FF7AFC0042842D /* flunderarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flunderarm.png; sourceTree = "<group>"; };
+		F3620D9819FF7AFC0042842D /* flunderarmcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flunderarmcontusion.png; sourceTree = "<group>"; };
+		F3620D9919FF7AFC0042842D /* flunderarmfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flunderarmfracture.png; sourceTree = "<group>"; };
+		F3620D9A19FF7AFC0042842D /* flunderarmwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flunderarmwound.png; sourceTree = "<group>"; };
+		F3620D9B19FF7AFC0042842D /* flwrist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flwrist.png; sourceTree = "<group>"; };
+		F3620D9C19FF7AFC0042842D /* flwristcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flwristcontusion.png; sourceTree = "<group>"; };
+		F3620D9D19FF7AFC0042842D /* flwristfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flwristfracture.png; sourceTree = "<group>"; };
+		F3620D9E19FF7AFC0042842D /* flwristsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flwristsprain.png; sourceTree = "<group>"; };
+		F3620D9F19FF7AFC0042842D /* flwristwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flwristwound.png; sourceTree = "<group>"; };
+		F3620DA119FF7AFC0042842D /* fleft foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fleft foot.png"; sourceTree = "<group>"; };
+		F3620DA219FF7AFC0042842D /* lankle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lankle.png; sourceTree = "<group>"; };
+		F3620DA319FF7AFC0042842D /* lanklecontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanklecontusion.png; sourceTree = "<group>"; };
+		F3620DA419FF7AFC0042842D /* lankledislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lankledislocation.png; sourceTree = "<group>"; };
+		F3620DA519FF7AFC0042842D /* lanklefracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanklefracture.png; sourceTree = "<group>"; };
+		F3620DA619FF7AFC0042842D /* lanklesprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanklesprain.png; sourceTree = "<group>"; };
+		F3620DA719FF7AFC0042842D /* lfemur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfemur.png; sourceTree = "<group>"; };
+		F3620DA819FF7AFC0042842D /* lfemurcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfemurcontusion.png; sourceTree = "<group>"; };
+		F3620DA919FF7AFC0042842D /* lfemurfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfemurfracture.png; sourceTree = "<group>"; };
+		F3620DAA19FF7AFC0042842D /* lfemurwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfemurwound.png; sourceTree = "<group>"; };
+		F3620DAB19FF7AFC0042842D /* lfoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfoot.png; sourceTree = "<group>"; };
+		F3620DAC19FF7AFC0042842D /* lfootcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfootcontusion.png; sourceTree = "<group>"; };
+		F3620DAD19FF7AFC0042842D /* lfootdislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfootdislocation.png; sourceTree = "<group>"; };
+		F3620DAE19FF7AFC0042842D /* lfootfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfootfracture.png; sourceTree = "<group>"; };
+		F3620DAF19FF7AFC0042842D /* lfootsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfootsprain.png; sourceTree = "<group>"; };
+		F3620DB019FF7AFC0042842D /* lfootwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfootwound.png; sourceTree = "<group>"; };
+		F3620DB119FF7AFC0042842D /* lknee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lknee.png; sourceTree = "<group>"; };
+		F3620DB219FF7AFC0042842D /* lkneecontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lkneecontusion.png; sourceTree = "<group>"; };
+		F3620DB319FF7AFC0042842D /* lkneedislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lkneedislocation.png; sourceTree = "<group>"; };
+		F3620DB419FF7AFC0042842D /* lkneefracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lkneefracture.png; sourceTree = "<group>"; };
+		F3620DB519FF7AFC0042842D /* lkneesprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lkneesprain.png; sourceTree = "<group>"; };
+		F3620DB619FF7AFC0042842D /* lkneewound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lkneewound.png; sourceTree = "<group>"; };
+		F3620DB719FF7AFC0042842D /* lleg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lleg.png; sourceTree = "<group>"; };
+		F3620DB819FF7AFC0042842D /* llegcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llegcontusion.png; sourceTree = "<group>"; };
+		F3620DB919FF7AFC0042842D /* llegfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llegfracture.png; sourceTree = "<group>"; };
+		F3620DBA19FF7AFC0042842D /* llegwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llegwound.png; sourceTree = "<group>"; };
+		F3620DBC19FF7AFC0042842D /* fright arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fright arm.png"; sourceTree = "<group>"; };
+		F3620DBD19FF7AFC0042842D /* rhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhand.png; sourceTree = "<group>"; };
+		F3620DBE19FF7AFC0042842D /* rhandcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhandcontusion.png; sourceTree = "<group>"; };
+		F3620DBF19FF7AFC0042842D /* rhanddislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhanddislocation.png; sourceTree = "<group>"; };
+		F3620DC019FF7AFC0042842D /* rhandfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhandfracture.png; sourceTree = "<group>"; };
+		F3620DC119FF7AFC0042842D /* rhandsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhandsprain.png; sourceTree = "<group>"; };
+		F3620DC219FF7AFC0042842D /* rhandwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhandwound.png; sourceTree = "<group>"; };
+		F3620DC319FF7AFC0042842D /* rhumerous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhumerous.png; sourceTree = "<group>"; };
+		F3620DC419FF7AFC0042842D /* rhumerouscontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhumerouscontusion.png; sourceTree = "<group>"; };
+		F3620DC519FF7AFC0042842D /* rhumerousfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhumerousfracture.png; sourceTree = "<group>"; };
+		F3620DC619FF7AFC0042842D /* rhumerouswound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhumerouswound.png; sourceTree = "<group>"; };
+		F3620DC719FF7AFC0042842D /* rshoulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rshoulder.png; sourceTree = "<group>"; };
+		F3620DC819FF7AFC0042842D /* rshouldercontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rshouldercontusion.png; sourceTree = "<group>"; };
+		F3620DC919FF7AFC0042842D /* rshoulderdislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rshoulderdislocation.png; sourceTree = "<group>"; };
+		F3620DCA19FF7AFC0042842D /* rshoulderfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rshoulderfracture.png; sourceTree = "<group>"; };
+		F3620DCB19FF7AFC0042842D /* rshoulderwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rshoulderwound.png; sourceTree = "<group>"; };
+		F3620DCC19FF7AFC0042842D /* runderarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runderarm.png; sourceTree = "<group>"; };
+		F3620DCD19FF7AFC0042842D /* runderarmcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runderarmcontusion.png; sourceTree = "<group>"; };
+		F3620DCE19FF7AFC0042842D /* runderarmfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runderarmfracture.png; sourceTree = "<group>"; };
+		F3620DCF19FF7AFC0042842D /* runderarmwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runderarmwound.png; sourceTree = "<group>"; };
+		F3620DD019FF7AFC0042842D /* rwrist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwrist.png; sourceTree = "<group>"; };
+		F3620DD119FF7AFC0042842D /* rwristcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwristcontusion.png; sourceTree = "<group>"; };
+		F3620DD219FF7AFC0042842D /* rwristfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwristfracture.png; sourceTree = "<group>"; };
+		F3620DD319FF7AFC0042842D /* rwristsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwristsprain.png; sourceTree = "<group>"; };
+		F3620DD419FF7AFC0042842D /* rwristwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwristwound.png; sourceTree = "<group>"; };
+		F3620DD619FF7AFC0042842D /* fright foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fright foot.png"; sourceTree = "<group>"; };
+		F3620DD719FF7AFC0042842D /* rankle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rankle.png; sourceTree = "<group>"; };
+		F3620DD819FF7AFC0042842D /* ranklecontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ranklecontusion.png; sourceTree = "<group>"; };
+		F3620DD919FF7AFC0042842D /* rankledislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rankledislocation.png; sourceTree = "<group>"; };
+		F3620DDA19FF7AFC0042842D /* ranklefracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ranklefracture.png; sourceTree = "<group>"; };
+		F3620DDB19FF7AFC0042842D /* ranklesprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ranklesprain.png; sourceTree = "<group>"; };
+		F3620DDC19FF7AFC0042842D /* ranklewound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ranklewound.png; sourceTree = "<group>"; };
+		F3620DDD19FF7AFC0042842D /* rfemur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfemur.png; sourceTree = "<group>"; };
+		F3620DDE19FF7AFC0042842D /* rfemurcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfemurcontusion.png; sourceTree = "<group>"; };
+		F3620DDF19FF7AFC0042842D /* rfemurfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfemurfracture.png; sourceTree = "<group>"; };
+		F3620DE019FF7AFC0042842D /* rfemurwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfemurwound.png; sourceTree = "<group>"; };
+		F3620DE119FF7AFC0042842D /* rfoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfoot.png; sourceTree = "<group>"; };
+		F3620DE219FF7AFC0042842D /* rfootcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfootcontusion.png; sourceTree = "<group>"; };
+		F3620DE319FF7AFC0042842D /* rfootdislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfootdislocation.png; sourceTree = "<group>"; };
+		F3620DE419FF7AFC0042842D /* rfootfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfootfracture.png; sourceTree = "<group>"; };
+		F3620DE519FF7AFC0042842D /* rfootsprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfootsprain.png; sourceTree = "<group>"; };
+		F3620DE619FF7AFC0042842D /* rfootwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfootwound.png; sourceTree = "<group>"; };
+		F3620DE719FF7AFC0042842D /* rknee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rknee.png; sourceTree = "<group>"; };
+		F3620DE819FF7AFC0042842D /* rkneecontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rkneecontusion.png; sourceTree = "<group>"; };
+		F3620DE919FF7AFC0042842D /* rkneedislocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rkneedislocation.png; sourceTree = "<group>"; };
+		F3620DEA19FF7AFC0042842D /* rkneefracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rkneefracture.png; sourceTree = "<group>"; };
+		F3620DEB19FF7AFC0042842D /* rkneesprain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rkneesprain.png; sourceTree = "<group>"; };
+		F3620DEC19FF7AFC0042842D /* rkneewound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rkneewound.png; sourceTree = "<group>"; };
+		F3620DED19FF7AFC0042842D /* rleg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rleg.png; sourceTree = "<group>"; };
+		F3620DEE19FF7AFC0042842D /* rlegcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rlegcontusion.png; sourceTree = "<group>"; };
+		F3620DEF19FF7AFC0042842D /* rlegfracture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rlegfracture.png; sourceTree = "<group>"; };
+		F3620DF019FF7AFC0042842D /* rlegwound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rlegwound.png; sourceTree = "<group>"; };
+		F3620DF119FF7AFC0042842D /* stomach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stomach.png; sourceTree = "<group>"; };
+		F3620DF219FF7AFC0042842D /* stomachcontusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stomachcontusion.png; sourceTree = "<group>"; };
+		F3620DF319FF7AFC0042842D /* stomachiomanifest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stomachiomanifest.png; sourceTree = "<group>"; };
+		F3620DF419FF7AFC0042842D /* humanBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humanBack.png; sourceTree = "<group>"; };
+		F3620DF519FF7AFC0042842D /* humanFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humanFront.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +403,12 @@
 				F3620D2B19FF79650042842D /* ViewController.h */,
 				F3620D2C19FF79650042842D /* ViewController.m */,
 				F3620D2E19FF79650042842D /* Main.storyboard */,
+				F3620D4A19FF7A780042842D /* Constants.h */,
+				F3620D4B19FF7A780042842D /* HumanModel.h */,
+				F3620D5119FF7AFC0042842D /* Images 2 */,
+				F3620D4C19FF7A780042842D /* HumanModel.m */,
+				F3620D4D19FF7A780042842D /* InjuryModel.h */,
+				F3620D4E19FF7A780042842D /* InjuryModel.m */,
 				F3620D3119FF79650042842D /* Images.xcassets */,
 				F3620D3319FF79650042842D /* LaunchScreen.xib */,
 				F3620D2819FF79650042842D /* IR.xcdatamodeld */,
@@ -120,6 +441,247 @@
 				F3620D3F19FF79650042842D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3620D5119FF7AFC0042842D /* Images 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D5219FF7AFC0042842D /* Back */,
+				F3620D8019FF7AFC0042842D /* Front */,
+				F3620DF419FF7AFC0042842D /* humanBack.png */,
+				F3620DF519FF7AFC0042842D /* humanFront.png */,
+			);
+			path = "Images 2";
+			sourceTree = "<group>";
+		};
+		F3620D5219FF7AFC0042842D /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D5319FF7AFC0042842D /* back.png */,
+				F3620D5419FF7AFC0042842D /* backcontusion.png */,
+				F3620D5519FF7AFC0042842D /* backfracture.png */,
+				F3620D5619FF7AFC0042842D /* backsprain.png */,
+				F3620D5719FF7AFC0042842D /* head.png */,
+				F3620D5819FF7AFC0042842D /* headconcussion.png */,
+				F3620D5919FF7AFC0042842D /* headcontusion.png */,
+				F3620D5A19FF7AFC0042842D /* headfracture.png */,
+				F3620D5B19FF7AFC0042842D /* headwound.png */,
+				F3620D5C19FF7AFC0042842D /* left arm */,
+				F3620D6919FF7AFC0042842D /* left foot */,
+				F3620D6E19FF7AFC0042842D /* right arm */,
+				F3620D7B19FF7AFC0042842D /* right foot */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		F3620D5C19FF7AFC0042842D /* left arm */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D5D19FF7AFC0042842D /* hand.png */,
+				F3620D5E19FF7AFC0042842D /* left arm.png */,
+				F3620D5F19FF7AFC0042842D /* lelbow.png */,
+				F3620D6019FF7AFC0042842D /* lelbowcontusion.png */,
+				F3620D6119FF7AFC0042842D /* lelbowdislocation.png */,
+				F3620D6219FF7AFC0042842D /* lelbowfracture.png */,
+				F3620D6319FF7AFC0042842D /* lelbowsprain.png */,
+				F3620D6419FF7AFC0042842D /* lelbowwound.png */,
+				F3620D6519FF7AFC0042842D /* overarm.png */,
+				F3620D6619FF7AFC0042842D /* shoulder.png */,
+				F3620D6719FF7AFC0042842D /* underarm.png */,
+				F3620D6819FF7AFC0042842D /* wrist.png */,
+			);
+			path = "left arm";
+			sourceTree = "<group>";
+		};
+		F3620D6919FF7AFC0042842D /* left foot */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D6A19FF7AFC0042842D /* ankle.png */,
+				F3620D6B19FF7AFC0042842D /* left foot.png */,
+				F3620D6C19FF7AFC0042842D /* leg.png */,
+				F3620D6D19FF7AFC0042842D /* thigh.png */,
+			);
+			path = "left foot";
+			sourceTree = "<group>";
+		};
+		F3620D6E19FF7AFC0042842D /* right arm */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D6F19FF7AFC0042842D /* hand.png */,
+				F3620D7019FF7AFC0042842D /* overarm.png */,
+				F3620D7119FF7AFC0042842D /* relbow.png */,
+				F3620D7219FF7AFC0042842D /* relbowcontusion.png */,
+				F3620D7319FF7AFC0042842D /* relbowdislocation.png */,
+				F3620D7419FF7AFC0042842D /* relbowfracture.png */,
+				F3620D7519FF7AFC0042842D /* relbowsprain.png */,
+				F3620D7619FF7AFC0042842D /* relbowwound.png */,
+				F3620D7719FF7AFC0042842D /* right arm.png */,
+				F3620D7819FF7AFC0042842D /* shoulder.png */,
+				F3620D7919FF7AFC0042842D /* underarm.png */,
+				F3620D7A19FF7AFC0042842D /* wrist.png */,
+			);
+			path = "right arm";
+			sourceTree = "<group>";
+		};
+		F3620D7B19FF7AFC0042842D /* right foot */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D7C19FF7AFC0042842D /* ankle.png */,
+				F3620D7D19FF7AFC0042842D /* leg.png */,
+				F3620D7E19FF7AFC0042842D /* right foot.png */,
+				F3620D7F19FF7AFC0042842D /* thigh.png */,
+			);
+			path = "right foot";
+			sourceTree = "<group>";
+		};
+		F3620D8019FF7AFC0042842D /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D8119FF7AFC0042842D /* fhead.png */,
+				F3620D8219FF7AFC0042842D /* fheadconcussion.png */,
+				F3620D8319FF7AFC0042842D /* fheadcontusion.png */,
+				F3620D8419FF7AFC0042842D /* fheadfracture.png */,
+				F3620D8519FF7AFC0042842D /* fheadwound.png */,
+				F3620D8619FF7AFC0042842D /* left arm */,
+				F3620DA019FF7AFC0042842D /* left foot */,
+				F3620DBB19FF7AFC0042842D /* right arm */,
+				F3620DD519FF7AFC0042842D /* right foot */,
+				F3620DF119FF7AFC0042842D /* stomach.png */,
+				F3620DF219FF7AFC0042842D /* stomachcontusion.png */,
+				F3620DF319FF7AFC0042842D /* stomachiomanifest.png */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		F3620D8619FF7AFC0042842D /* left arm */ = {
+			isa = PBXGroup;
+			children = (
+				F3620D8719FF7AFC0042842D /* fleft arm.png */,
+				F3620D8819FF7AFC0042842D /* flhand.png */,
+				F3620D8919FF7AFC0042842D /* flhandcontusion.png */,
+				F3620D8A19FF7AFC0042842D /* flhanddislocation.png */,
+				F3620D8B19FF7AFC0042842D /* flhandfracture.png */,
+				F3620D8C19FF7AFC0042842D /* flhandsprain.png */,
+				F3620D8D19FF7AFC0042842D /* flhandwound.png */,
+				F3620D8E19FF7AFC0042842D /* flhumerous.png */,
+				F3620D8F19FF7AFC0042842D /* flhumerouscontusion.png */,
+				F3620D9019FF7AFC0042842D /* flhumerousfracture.png */,
+				F3620D9119FF7AFC0042842D /* flhumerouswound.png */,
+				F3620D9219FF7AFC0042842D /* flshoulder.png */,
+				F3620D9319FF7AFC0042842D /* flshouldercontusion.png */,
+				F3620D9419FF7AFC0042842D /* flshoulderdislocation.png */,
+				F3620D9519FF7AFC0042842D /* flshoulderfracture.png */,
+				F3620D9619FF7AFC0042842D /* flshoulderwound.png */,
+				F3620D9719FF7AFC0042842D /* flunderarm.png */,
+				F3620D9819FF7AFC0042842D /* flunderarmcontusion.png */,
+				F3620D9919FF7AFC0042842D /* flunderarmfracture.png */,
+				F3620D9A19FF7AFC0042842D /* flunderarmwound.png */,
+				F3620D9B19FF7AFC0042842D /* flwrist.png */,
+				F3620D9C19FF7AFC0042842D /* flwristcontusion.png */,
+				F3620D9D19FF7AFC0042842D /* flwristfracture.png */,
+				F3620D9E19FF7AFC0042842D /* flwristsprain.png */,
+				F3620D9F19FF7AFC0042842D /* flwristwound.png */,
+			);
+			path = "left arm";
+			sourceTree = "<group>";
+		};
+		F3620DA019FF7AFC0042842D /* left foot */ = {
+			isa = PBXGroup;
+			children = (
+				F3620DA119FF7AFC0042842D /* fleft foot.png */,
+				F3620DA219FF7AFC0042842D /* lankle.png */,
+				F3620DA319FF7AFC0042842D /* lanklecontusion.png */,
+				F3620DA419FF7AFC0042842D /* lankledislocation.png */,
+				F3620DA519FF7AFC0042842D /* lanklefracture.png */,
+				F3620DA619FF7AFC0042842D /* lanklesprain.png */,
+				F3620DA719FF7AFC0042842D /* lfemur.png */,
+				F3620DA819FF7AFC0042842D /* lfemurcontusion.png */,
+				F3620DA919FF7AFC0042842D /* lfemurfracture.png */,
+				F3620DAA19FF7AFC0042842D /* lfemurwound.png */,
+				F3620DAB19FF7AFC0042842D /* lfoot.png */,
+				F3620DAC19FF7AFC0042842D /* lfootcontusion.png */,
+				F3620DAD19FF7AFC0042842D /* lfootdislocation.png */,
+				F3620DAE19FF7AFC0042842D /* lfootfracture.png */,
+				F3620DAF19FF7AFC0042842D /* lfootsprain.png */,
+				F3620DB019FF7AFC0042842D /* lfootwound.png */,
+				F3620DB119FF7AFC0042842D /* lknee.png */,
+				F3620DB219FF7AFC0042842D /* lkneecontusion.png */,
+				F3620DB319FF7AFC0042842D /* lkneedislocation.png */,
+				F3620DB419FF7AFC0042842D /* lkneefracture.png */,
+				F3620DB519FF7AFC0042842D /* lkneesprain.png */,
+				F3620DB619FF7AFC0042842D /* lkneewound.png */,
+				F3620DB719FF7AFC0042842D /* lleg.png */,
+				F3620DB819FF7AFC0042842D /* llegcontusion.png */,
+				F3620DB919FF7AFC0042842D /* llegfracture.png */,
+				F3620DBA19FF7AFC0042842D /* llegwound.png */,
+			);
+			path = "left foot";
+			sourceTree = "<group>";
+		};
+		F3620DBB19FF7AFC0042842D /* right arm */ = {
+			isa = PBXGroup;
+			children = (
+				F3620DBC19FF7AFC0042842D /* fright arm.png */,
+				F3620DBD19FF7AFC0042842D /* rhand.png */,
+				F3620DBE19FF7AFC0042842D /* rhandcontusion.png */,
+				F3620DBF19FF7AFC0042842D /* rhanddislocation.png */,
+				F3620DC019FF7AFC0042842D /* rhandfracture.png */,
+				F3620DC119FF7AFC0042842D /* rhandsprain.png */,
+				F3620DC219FF7AFC0042842D /* rhandwound.png */,
+				F3620DC319FF7AFC0042842D /* rhumerous.png */,
+				F3620DC419FF7AFC0042842D /* rhumerouscontusion.png */,
+				F3620DC519FF7AFC0042842D /* rhumerousfracture.png */,
+				F3620DC619FF7AFC0042842D /* rhumerouswound.png */,
+				F3620DC719FF7AFC0042842D /* rshoulder.png */,
+				F3620DC819FF7AFC0042842D /* rshouldercontusion.png */,
+				F3620DC919FF7AFC0042842D /* rshoulderdislocation.png */,
+				F3620DCA19FF7AFC0042842D /* rshoulderfracture.png */,
+				F3620DCB19FF7AFC0042842D /* rshoulderwound.png */,
+				F3620DCC19FF7AFC0042842D /* runderarm.png */,
+				F3620DCD19FF7AFC0042842D /* runderarmcontusion.png */,
+				F3620DCE19FF7AFC0042842D /* runderarmfracture.png */,
+				F3620DCF19FF7AFC0042842D /* runderarmwound.png */,
+				F3620DD019FF7AFC0042842D /* rwrist.png */,
+				F3620DD119FF7AFC0042842D /* rwristcontusion.png */,
+				F3620DD219FF7AFC0042842D /* rwristfracture.png */,
+				F3620DD319FF7AFC0042842D /* rwristsprain.png */,
+				F3620DD419FF7AFC0042842D /* rwristwound.png */,
+			);
+			path = "right arm";
+			sourceTree = "<group>";
+		};
+		F3620DD519FF7AFC0042842D /* right foot */ = {
+			isa = PBXGroup;
+			children = (
+				F3620DD619FF7AFC0042842D /* fright foot.png */,
+				F3620DD719FF7AFC0042842D /* rankle.png */,
+				F3620DD819FF7AFC0042842D /* ranklecontusion.png */,
+				F3620DD919FF7AFC0042842D /* rankledislocation.png */,
+				F3620DDA19FF7AFC0042842D /* ranklefracture.png */,
+				F3620DDB19FF7AFC0042842D /* ranklesprain.png */,
+				F3620DDC19FF7AFC0042842D /* ranklewound.png */,
+				F3620DDD19FF7AFC0042842D /* rfemur.png */,
+				F3620DDE19FF7AFC0042842D /* rfemurcontusion.png */,
+				F3620DDF19FF7AFC0042842D /* rfemurfracture.png */,
+				F3620DE019FF7AFC0042842D /* rfemurwound.png */,
+				F3620DE119FF7AFC0042842D /* rfoot.png */,
+				F3620DE219FF7AFC0042842D /* rfootcontusion.png */,
+				F3620DE319FF7AFC0042842D /* rfootdislocation.png */,
+				F3620DE419FF7AFC0042842D /* rfootfracture.png */,
+				F3620DE519FF7AFC0042842D /* rfootsprain.png */,
+				F3620DE619FF7AFC0042842D /* rfootwound.png */,
+				F3620DE719FF7AFC0042842D /* rknee.png */,
+				F3620DE819FF7AFC0042842D /* rkneecontusion.png */,
+				F3620DE919FF7AFC0042842D /* rkneedislocation.png */,
+				F3620DEA19FF7AFC0042842D /* rkneefracture.png */,
+				F3620DEB19FF7AFC0042842D /* rkneesprain.png */,
+				F3620DEC19FF7AFC0042842D /* rkneewound.png */,
+				F3620DED19FF7AFC0042842D /* rleg.png */,
+				F3620DEE19FF7AFC0042842D /* rlegcontusion.png */,
+				F3620DEF19FF7AFC0042842D /* rlegfracture.png */,
+				F3620DF019FF7AFC0042842D /* rlegwound.png */,
+			);
+			path = "right foot";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +764,163 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3620E0919FF7AFC0042842D /* underarm.png in Resources */,
+				F3620E5719FF7AFC0042842D /* fright arm.png in Resources */,
+				F3620E1119FF7AFC0042842D /* relbow.png in Resources */,
+				F3620E2319FF7AFC0042842D /* fheadwound.png in Resources */,
+				F3620E4519FF7AFC0042842D /* lfemurfracture.png in Resources */,
+				F3620E8119FF7AFC0042842D /* rknee.png in Resources */,
+				F3620E3119FF7AFC0042842D /* flshoulderdislocation.png in Resources */,
+				F3620E1B19FF7AFC0042842D /* ankle.png in Resources */,
+				F3620E6719FF7AFC0042842D /* runderarm.png in Resources */,
+				F3620E1519FF7AFC0042842D /* relbowsprain.png in Resources */,
+				F3620E6219FF7AFC0042842D /* rshoulder.png in Resources */,
+				F3620E6A19FF7AFC0042842D /* runderarmwound.png in Resources */,
+				F3620E8219FF7AFC0042842D /* rkneecontusion.png in Resources */,
+				F3620DF619FF7AFC0042842D /* back.png in Resources */,
+				F3620E0119FF7AFC0042842D /* lelbow.png in Resources */,
+				F3620E4819FF7AFC0042842D /* lfootcontusion.png in Resources */,
+				F3620E7D19FF7AFC0042842D /* rfootdislocation.png in Resources */,
+				F3620E2B19FF7AFC0042842D /* flhumerous.png in Resources */,
+				F3620E1419FF7AFC0042842D /* relbowfracture.png in Resources */,
+				F3620E4119FF7AFC0042842D /* lanklefracture.png in Resources */,
+				F3620E2119FF7AFC0042842D /* fheadcontusion.png in Resources */,
+				F3620E5319FF7AFC0042842D /* lleg.png in Resources */,
+				F3620E6E19FF7AFC0042842D /* rwristsprain.png in Resources */,
 				F3620D3019FF79650042842D /* Main.storyboard in Resources */,
+				F3620E8C19FF7AFC0042842D /* stomachcontusion.png in Resources */,
+				F3620E2819FF7AFC0042842D /* flhandfracture.png in Resources */,
+				F3620E4719FF7AFC0042842D /* lfoot.png in Resources */,
+				F3620E3A19FF7AFC0042842D /* flwristfracture.png in Resources */,
+				F3620E4C19FF7AFC0042842D /* lfootwound.png in Resources */,
+				F3620E3319FF7AFC0042842D /* flshoulderwound.png in Resources */,
+				F3620E3919FF7AFC0042842D /* flwristcontusion.png in Resources */,
+				F3620E4619FF7AFC0042842D /* lfemurwound.png in Resources */,
+				F3620E0319FF7AFC0042842D /* lelbowdislocation.png in Resources */,
+				F3620E7719FF7AFC0042842D /* rfemur.png in Resources */,
+				F3620E2A19FF7AFC0042842D /* flhandwound.png in Resources */,
+				F3620E7119FF7AFC0042842D /* rankle.png in Resources */,
+				F3620E7F19FF7AFC0042842D /* rfootsprain.png in Resources */,
+				F3620E7519FF7AFC0042842D /* ranklesprain.png in Resources */,
+				F3620E2919FF7AFC0042842D /* flhandsprain.png in Resources */,
+				F3620E0519FF7AFC0042842D /* lelbowsprain.png in Resources */,
+				F3620E5D19FF7AFC0042842D /* rhandwound.png in Resources */,
+				F3620E6619FF7AFC0042842D /* rshoulderwound.png in Resources */,
+				F3620DFD19FF7AFC0042842D /* headfracture.png in Resources */,
+				F3620E7B19FF7AFC0042842D /* rfoot.png in Resources */,
+				F3620E5F19FF7AFC0042842D /* rhumerouscontusion.png in Resources */,
+				F3620E4F19FF7AFC0042842D /* lkneedislocation.png in Resources */,
+				F3620E4919FF7AFC0042842D /* lfootdislocation.png in Resources */,
+				F3620E5219FF7AFC0042842D /* lkneewound.png in Resources */,
+				F3620E5019FF7AFC0042842D /* lkneefracture.png in Resources */,
+				F3620E3419FF7AFC0042842D /* flunderarm.png in Resources */,
+				F3620E6B19FF7AFC0042842D /* rwrist.png in Resources */,
+				F3620DF719FF7AFC0042842D /* backcontusion.png in Resources */,
+				F3620E7C19FF7AFC0042842D /* rfootcontusion.png in Resources */,
+				F3620E8919FF7AFC0042842D /* rlegfracture.png in Resources */,
+				F3620E2C19FF7AFC0042842D /* flhumerouscontusion.png in Resources */,
+				F3620E1E19FF7AFC0042842D /* thigh.png in Resources */,
+				F3620E8819FF7AFC0042842D /* rlegcontusion.png in Resources */,
+				F3620E6519FF7AFC0042842D /* rshoulderfracture.png in Resources */,
+				F3620E0F19FF7AFC0042842D /* hand.png in Resources */,
+				F3620E8019FF7AFC0042842D /* rfootwound.png in Resources */,
+				F3620E5119FF7AFC0042842D /* lkneesprain.png in Resources */,
+				F3620E0419FF7AFC0042842D /* lelbowfracture.png in Resources */,
+				F3620E6919FF7AFC0042842D /* runderarmfracture.png in Resources */,
+				F3620E7619FF7AFC0042842D /* ranklewound.png in Resources */,
 				F3620D3519FF79650042842D /* LaunchScreen.xib in Resources */,
+				F3620E8B19FF7AFC0042842D /* stomach.png in Resources */,
+				F3620E7319FF7AFC0042842D /* rankledislocation.png in Resources */,
+				F3620E4019FF7AFC0042842D /* lankledislocation.png in Resources */,
+				F3620E6D19FF7AFC0042842D /* rwristfracture.png in Resources */,
+				F3620E8319FF7AFC0042842D /* rkneedislocation.png in Resources */,
+				F3620E4D19FF7AFC0042842D /* lknee.png in Resources */,
+				F3620DF919FF7AFC0042842D /* backsprain.png in Resources */,
+				F3620E0719FF7AFC0042842D /* overarm.png in Resources */,
+				F3620E5A19FF7AFC0042842D /* rhanddislocation.png in Resources */,
+				F3620E2D19FF7AFC0042842D /* flhumerousfracture.png in Resources */,
+				F3620E0D19FF7AFC0042842D /* leg.png in Resources */,
+				F3620E5C19FF7AFC0042842D /* rhandsprain.png in Resources */,
+				F3620E2719FF7AFC0042842D /* flhanddislocation.png in Resources */,
+				F3620E3219FF7AFC0042842D /* flshoulderfracture.png in Resources */,
+				F3620E3019FF7AFC0042842D /* flshouldercontusion.png in Resources */,
+				F3620E1C19FF7AFC0042842D /* leg.png in Resources */,
+				F3620E5B19FF7AFC0042842D /* rhandfracture.png in Resources */,
+				F3620E1D19FF7AFC0042842D /* right foot.png in Resources */,
+				F3620E7819FF7AFC0042842D /* rfemurcontusion.png in Resources */,
+				F3620E7A19FF7AFC0042842D /* rfemurwound.png in Resources */,
+				F3620E3819FF7AFC0042842D /* flwrist.png in Resources */,
+				F3620E1F19FF7AFC0042842D /* fhead.png in Resources */,
+				F3620E4419FF7AFC0042842D /* lfemurcontusion.png in Resources */,
+				F3620E3C19FF7AFC0042842D /* flwristwound.png in Resources */,
+				F3620E0819FF7AFC0042842D /* shoulder.png in Resources */,
+				F3620E2219FF7AFC0042842D /* fheadfracture.png in Resources */,
+				F3620E6419FF7AFC0042842D /* rshoulderdislocation.png in Resources */,
+				F3620E1319FF7AFC0042842D /* relbowdislocation.png in Resources */,
+				F3620E4B19FF7AFC0042842D /* lfootsprain.png in Resources */,
+				F3620E4E19FF7AFC0042842D /* lkneecontusion.png in Resources */,
+				F3620E0A19FF7AFC0042842D /* wrist.png in Resources */,
+				F3620E4A19FF7AFC0042842D /* lfootfracture.png in Resources */,
+				F3620E5819FF7AFC0042842D /* rhand.png in Resources */,
+				F3620DFB19FF7AFC0042842D /* headconcussion.png in Resources */,
+				F3620E2419FF7AFC0042842D /* fleft arm.png in Resources */,
+				F3620E3719FF7AFC0042842D /* flunderarmwound.png in Resources */,
+				F3620E6F19FF7AFC0042842D /* rwristwound.png in Resources */,
+				F3620E6119FF7AFC0042842D /* rhumerouswound.png in Resources */,
+				F3620E7419FF7AFC0042842D /* ranklefracture.png in Resources */,
+				F3620E1819FF7AFC0042842D /* shoulder.png in Resources */,
+				F3620E8A19FF7AFC0042842D /* rlegwound.png in Resources */,
+				F3620E8E19FF7AFC0042842D /* humanBack.png in Resources */,
+				F3620E3E19FF7AFC0042842D /* lankle.png in Resources */,
+				F3620DFA19FF7AFC0042842D /* head.png in Resources */,
+				F3620E5519FF7AFC0042842D /* llegfracture.png in Resources */,
+				F3620E1219FF7AFC0042842D /* relbowcontusion.png in Resources */,
+				F3620E0619FF7AFC0042842D /* lelbowwound.png in Resources */,
+				F3620E6019FF7AFC0042842D /* rhumerousfracture.png in Resources */,
+				F3620E5919FF7AFC0042842D /* rhandcontusion.png in Resources */,
+				F3620E3F19FF7AFC0042842D /* lanklecontusion.png in Resources */,
+				F3620E4219FF7AFC0042842D /* lanklesprain.png in Resources */,
+				F3620E5619FF7AFC0042842D /* llegwound.png in Resources */,
+				F3620E2E19FF7AFC0042842D /* flhumerouswound.png in Resources */,
+				F3620E5E19FF7AFC0042842D /* rhumerous.png in Resources */,
+				F3620E0C19FF7AFC0042842D /* left foot.png in Resources */,
+				F3620DF819FF7AFC0042842D /* backfracture.png in Resources */,
+				F3620E6319FF7AFC0042842D /* rshouldercontusion.png in Resources */,
+				F3620E7219FF7AFC0042842D /* ranklecontusion.png in Resources */,
+				F3620E3619FF7AFC0042842D /* flunderarmfracture.png in Resources */,
+				F3620E0E19FF7AFC0042842D /* thigh.png in Resources */,
+				F3620E8419FF7AFC0042842D /* rkneefracture.png in Resources */,
+				F3620E8D19FF7AFC0042842D /* stomachiomanifest.png in Resources */,
+				F3620E2619FF7AFC0042842D /* flhandcontusion.png in Resources */,
+				F3620E4319FF7AFC0042842D /* lfemur.png in Resources */,
+				F3620E7019FF7AFC0042842D /* fright foot.png in Resources */,
+				F3620DFC19FF7AFC0042842D /* headcontusion.png in Resources */,
+				F3620E3D19FF7AFC0042842D /* fleft foot.png in Resources */,
+				F3620E1A19FF7AFC0042842D /* wrist.png in Resources */,
+				F3620E6819FF7AFC0042842D /* runderarmcontusion.png in Resources */,
+				F3620E8619FF7AFC0042842D /* rkneewound.png in Resources */,
+				F3620E8719FF7AFC0042842D /* rleg.png in Resources */,
+				F3620E6C19FF7AFC0042842D /* rwristcontusion.png in Resources */,
+				F3620DFF19FF7AFC0042842D /* hand.png in Resources */,
+				F3620E0B19FF7AFC0042842D /* ankle.png in Resources */,
+				F3620E3B19FF7AFC0042842D /* flwristsprain.png in Resources */,
+				F3620E3519FF7AFC0042842D /* flunderarmcontusion.png in Resources */,
+				F3620E7E19FF7AFC0042842D /* rfootfracture.png in Resources */,
+				F3620E5419FF7AFC0042842D /* llegcontusion.png in Resources */,
+				F3620E1619FF7AFC0042842D /* relbowwound.png in Resources */,
+				F3620E8F19FF7AFC0042842D /* humanFront.png in Resources */,
+				F3620E1919FF7AFC0042842D /* underarm.png in Resources */,
+				F3620E1719FF7AFC0042842D /* right arm.png in Resources */,
+				F3620E8519FF7AFC0042842D /* rkneesprain.png in Resources */,
+				F3620E2019FF7AFC0042842D /* fheadconcussion.png in Resources */,
 				F3620D3219FF79650042842D /* Images.xcassets in Resources */,
+				F3620E7919FF7AFC0042842D /* rfemurfracture.png in Resources */,
+				F3620E0219FF7AFC0042842D /* lelbowcontusion.png in Resources */,
+				F3620E2519FF7AFC0042842D /* flhand.png in Resources */,
+				F3620E0019FF7AFC0042842D /* left arm.png in Resources */,
+				F3620E2F19FF7AFC0042842D /* flshoulder.png in Resources */,
+				F3620E1019FF7AFC0042842D /* overarm.png in Resources */,
+				F3620DFE19FF7AFC0042842D /* headwound.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +938,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3620D4F19FF7A780042842D /* HumanModel.m in Sources */,
 				F3620D2719FF79650042842D /* AppDelegate.m in Sources */,
+				F3620D5019FF7A780042842D /* InjuryModel.m in Sources */,
 				F3620D2A19FF79650042842D /* IR.xcdatamodeld in Sources */,
 				F3620D2D19FF79650042842D /* ViewController.m in Sources */,
 				F3620D2419FF79650042842D /* main.m in Sources */,

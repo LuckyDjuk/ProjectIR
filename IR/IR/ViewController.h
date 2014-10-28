@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HumanModel.h"
+#import "Constants.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
+
+
+@property (strong, nonatomic) HumanModel* human;
+
+-(void)handleSwipe:(UIGestureRecognizer*)swipe;
+
+-(IBAction)updateCurrentlySelectedPart:(UIButton*)sender;
+-(IBAction)addInjuryType:(id)sender;
 
 
 @end
+
+
 
