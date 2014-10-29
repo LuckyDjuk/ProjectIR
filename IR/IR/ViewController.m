@@ -17,10 +17,6 @@
     NSArray *BODY_PART_NAMES;
     
     NSInteger currentlySelectedPart;
-    
-    
-    
-    
 }
 
 @end
@@ -35,9 +31,6 @@
     
     [self.view addGestureRecognizer:[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipe:)]];
     
-    
-    
-    
     // Do any additional setup after loading the view, typically from a nib.
     
     INJURY_TYPE_IDS = @[@1,@2,@3,@4,@5,@6,@7,@8];
@@ -47,10 +40,8 @@
     
     BODY_PART_NAMES = @[@"Head",@"Face",@"Neck",@"Back",@"Thorax",@"Abdomen",@"Right clavicula and AC joint",@"Left clavicula and AC joint",@"Right shoulder",@"Left shoulder", @"Right humerous", @"Left humerous", @"Right elbow",@"Left elbow", @"Right under arm", @"Left under arm", @"Right wrist",@"Left wrist", @"Right hand", @"Left hand", @"Right pelvis",@"Left pelvis",@"Right hip", @"Left hip", @"Right femur", @"Left femur", @"Right knee", @"Left knee", @"Right lower leg", @"Left lower leg",@"Right ankle", @"Left ankle", @"Right foot", @"Left foot"];
     
-    NSLog(@"%lu, %lu", (unsigned long)BODY_PART_NAMES.count, (unsigned long)BODY_PART_IDS.count);
-    
-    
-    
+   // NSLog(@"%lu, %lu", (unsigned long)BODY_PART_NAMES.count, (unsigned long)BODY_PART_IDS.count);
+
     human = [[HumanModel alloc] init];
     
     human.fName = @"Sondre T";
@@ -80,10 +71,6 @@
      
      
      }*/
-    
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -95,23 +82,17 @@
 {
     
     if (swipe.direction == UISwipeGestureRecognizerDirectionRight) {
-        NSLog(@"Swiped direction right.");
+        //NSLog(@"Swiped direction right.");
         
         [self.navigationController popViewControllerAnimated:YES];
-        NSLog(@"%@",self.navigationController.viewControllers);
+       // NSLog(@"%@",self.navigationController.viewControllers);
     }
-    
-    
 }
 
 -(IBAction)updateCurrentlySelectedPart:(UIButton*)sender
 {
-    
     currentlySelectedPart = (NSInteger)sender.tag;
-    
-    NSLog(@"Currently selected part updated to: %ld", (long)currentlySelectedPart);
-    
-    
+   // NSLog(@"Currently selected part updated to: %ld", (long)currentlySelectedPart);
 }
 
 -(IBAction)addInjuryType:(UIButton*)sender
@@ -125,11 +106,8 @@
         [human.injuries addObject:injury];
         [self.navigationController popToRootViewControllerAnimated:YES];
         
-        NSLog(@"%@", human.injuries);
+       // NSLog(@"%@", human.injuries);
     }
-    
-    
-    
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -137,8 +115,32 @@
     ViewController *vc = segue.destinationViewController;
     
     [vc updateCurrentlySelectedPart:sender];
-    
 }
 
+- (IBAction)buttonPressed:(id)sender forEvent:(UIEvent *)event
+{
+    UIView *button = (UIView *)sender;
+    UITouch *touch = [[event touchesForView:button] anyObject];
+    CGPoint location = [touch locationInView:button];
+    NSLog(@"Location in button: %f, %f", location.x, location.y);
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(40, 30, 300, 50)];
+    label.backgroundColor = [UIColor clearColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.numberOfLines = 0;
+    label.lineBreakMode = NSLineBreakByCharWrapping;
+    label.text = @"Test";
+    [label setCenter:location];
+    label.font = [UIFont boldSystemFontOfSize:60];
+    label.transform = CGAffineTransformScale(label.transform, 0.25, 0.25);
+    [self.view addSubview:label];
+    [UIView animateWithDuration:0.5 animations:^{
+        label.alpha = 0;
+        label.transform = CGAffineTransformScale(label.transform, 4, 4);
+    }completion:^(BOOL finished) {
+        
+    }];
+}
 
 @end
