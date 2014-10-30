@@ -338,16 +338,16 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="x0N-Ha-Uu9"/>
                                 <exclude reference="KSs-Wz-nV7"/>
-                                <exclude reference="efN-P4-SdW"/>
+                                <exclude reference="x0N-Ha-Uu9"/>
                                 <exclude reference="eDn-cs-quj"/>
+                                <exclude reference="efN-P4-SdW"/>
                                 <exclude reference="7h8-no-a7e"/>
                                 <exclude reference="UkA-EL-A82"/>
                                 <exclude reference="qwr-yZ-rQ6"/>
                                 <exclude reference="xEe-qf-1nA"/>
-                                <exclude reference="DGe-qQ-vSD"/>
                                 <exclude reference="Bgb-rU-xxW"/>
+                                <exclude reference="DGe-qQ-vSD"/>
                                 <exclude reference="TZf-9P-Zyd"/>
                                 <exclude reference="cYG-FS-6IL"/>
                             </mask>
