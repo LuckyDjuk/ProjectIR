@@ -20,4 +20,14 @@
     
     return self;
 }
+
++(instancetype)sharedHuman
+{
+    static HumanModel *sharedHuman = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedHuman = [[self alloc] init];
+    });
+    return sharedHuman;
+}
 @end

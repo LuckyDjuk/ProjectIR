@@ -49,9 +49,25 @@
     
     NSLog(@"%lu, %lu", (unsigned long)BODY_PART_NAMES.count, (unsigned long)BODY_PART_IDS.count);
     
+
+    UIVisualEffect *blurEffect;
+    blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+    
+    UIVisualEffectView *visualEffectView;
+    visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+    
+    visualEffectView.frame = self.view.bounds;
+    
+    UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100 , 100, 100)];
+    btn.titleLabel.text = @"Test";
+    
+    [visualEffectView.contentView addSubview:btn];
+    
+    [self.view addSubview:visualEffectView];
     
     
-    human = [[HumanModel alloc] init];
+    
+    human = [HumanModel sharedHuman];
     
     human.fName = @"Sondre T";
     human.lName = @"Johannessen";
@@ -70,19 +86,15 @@
     NSCalendar *calendar = [[NSCalendar alloc]  initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     human.dateOfBirth = [calendar dateFromComponents:dateComponents];
     
-    /*for (int i = 0; i<BODY_PART_NAMES.count; i++) {
+    /*
+     for (int i = 0; i<BODY_PART_NAMES.count; i++) {
      InjuryModel *injury = [[InjuryModel alloc] initWithBodyPartID:BODY_PART_IDS[i] andInjuryTypeID:INJURY_TYPE_IDS[i % 8]];
      
      injury.bodyPartName = BODY_PART_NAMES[i];
      injury.injuryTypeName = INJURY_TYPE_NAMES[i %8];
      
      [human.injuries addObject:injury];
-     
-     
      }*/
-    
-    
-    
     
 }
 

@@ -56,19 +56,6 @@
                                     <action selector="addInjuryType:" destination="uVU-qk-zal" eventType="touchUpInside" id="GtW-DP-YL2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebZ-Y2-hFu">
-                                <rect key="frame" x="304" y="335" width="207" height="137"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="137" id="JiV-dj-x5J"/>
-                                    <constraint firstAttribute="width" constant="207" id="Tel-ln-dPn"/>
-                                </constraints>
-                                <state key="normal" image="fheadwound.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="addInjuryType:" destination="uVU-qk-zal" eventType="touchUpInside" id="OYy-BA-xfX"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-P9-g3e">
                                 <rect key="frame" x="171" y="132" width="42" height="21"/>
                                 <constraints>
@@ -109,6 +96,19 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebZ-Y2-hFu">
+                                <rect key="frame" x="304" y="335" width="207" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="JiV-dj-x5J"/>
+                                    <constraint firstAttribute="width" constant="207" id="Tel-ln-dPn"/>
+                                </constraints>
+                                <state key="normal" image="fheadwound.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addInjuryType:" destination="uVU-qk-zal" eventType="touchUpInside" id="OYy-BA-xfX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -230,7 +230,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaV-xy-mq7">
-                                <rect key="frame" x="241.5" y="8" width="117" height="71"/>
+                                <rect key="frame" x="241" y="8" width="117" height="71"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="71" id="0s5-0c-wOR"/>
                                     <constraint firstAttribute="width" constant="117" id="VjZ-sb-6Zq"/>
@@ -270,7 +270,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1b-X6-PXi">
-                                <rect key="frame" x="167.5" y="-15" width="75" height="345"/>
+                                <rect key="frame" x="167" y="-15" width="75" height="345"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="345" id="MQe-0F-WUo"/>
                                     <constraint firstAttribute="width" constant="75" id="tdV-UR-QmT"/>
@@ -296,7 +296,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxc-cq-6ZK">
-                                <rect key="frame" x="357" y="-13.5" width="75" height="345"/>
+                                <rect key="frame" x="357" y="-14" width="75" height="345"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="345" id="aCO-rU-kHq"/>
                                     <constraint firstAttribute="width" constant="75" id="mYy-zg-QUF"/>
@@ -308,6 +308,55 @@
                                     <segue destination="GzD-29-Hu9" kind="show" id="chK-9j-bKk"/>
                                 </connections>
                             </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogO-TB-BwK">
+                                <rect key="frame" x="198" y="188" width="240" height="128"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="zc2-TE-Gbb">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evt-rc-K8y">
+                                            <rect key="frame" x="86" y="44" width="46" height="30"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="Evt-rc-K8y"/>
+                                        </mask>
+                                    </variation>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41j-Hu-5yn">
+                                <rect key="frame" x="167" y="0.0" width="265" height="128"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="EZK-Dm-GKp">
+                                    <rect key="frame" x="0.0" y="0.0" width="265" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TP1-IU-B0T">
+                                <rect key="frame" x="186" y="8" width="234" height="273"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="vbV-kg-XfE">
+                                    <rect key="frame" x="0.0" y="0.0" width="234" height="273"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3bN-dw-Ea7">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="Pba-O8-w2i">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -337,17 +386,22 @@
                             <constraint firstAttribute="centerY" secondItem="tdW-nD-m19" secondAttribute="centerY" id="xEe-qf-1nA"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ogO-TB-BwK"/>
+                                <exclude reference="41j-Hu-5yn"/>
+                                <exclude reference="TP1-IU-B0T"/>
+                            </mask>
                             <mask key="constraints">
-                                <exclude reference="x0N-Ha-Uu9"/>
                                 <exclude reference="KSs-Wz-nV7"/>
-                                <exclude reference="efN-P4-SdW"/>
+                                <exclude reference="x0N-Ha-Uu9"/>
                                 <exclude reference="eDn-cs-quj"/>
+                                <exclude reference="efN-P4-SdW"/>
                                 <exclude reference="7h8-no-a7e"/>
                                 <exclude reference="UkA-EL-A82"/>
                                 <exclude reference="qwr-yZ-rQ6"/>
                                 <exclude reference="xEe-qf-1nA"/>
-                                <exclude reference="DGe-qQ-vSD"/>
                                 <exclude reference="Bgb-rU-xxW"/>
+                                <exclude reference="DGe-qQ-vSD"/>
                                 <exclude reference="TZf-9P-Zyd"/>
                                 <exclude reference="cYG-FS-6IL"/>
                             </mask>
@@ -459,7 +513,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3uI-Vv-hth" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1870" y="624"/>
+            <point key="canvasLocation" x="1852" y="694"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WY6-GE-6Ka">

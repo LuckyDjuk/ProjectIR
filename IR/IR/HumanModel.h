@@ -24,6 +24,7 @@
 
 
 -(instancetype)init;
++(instancetype)sharedHuman;
 
 
 @end

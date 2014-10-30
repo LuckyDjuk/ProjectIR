@@ -405,13 +405,13 @@
 				F3620D2E19FF79650042842D /* Main.storyboard */,
 				F3620D4A19FF7A780042842D /* Constants.h */,
 				F3620D4B19FF7A780042842D /* HumanModel.h */,
-				F3620D5119FF7AFC0042842D /* Images 2 */,
 				F3620D4C19FF7A780042842D /* HumanModel.m */,
 				F3620D4D19FF7A780042842D /* InjuryModel.h */,
 				F3620D4E19FF7A780042842D /* InjuryModel.m */,
 				F3620D3119FF79650042842D /* Images.xcassets */,
 				F3620D3319FF79650042842D /* LaunchScreen.xib */,
 				F3620D2819FF79650042842D /* IR.xcdatamodeld */,
+				F3620D5119FF7AFC0042842D /* Images 2 */,
 				F3620D2119FF79650042842D /* Supporting Files */,
 			);
 			path = IR;
@@ -1134,6 +1134,7 @@
 				F3620D4619FF79650042842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3620D4719FF79650042842D /* Build configuration list for PBXNativeTarget "IRTests" */ = {
 			isa = XCConfigurationList;
@@ -1142,6 +1143,7 @@
 				F3620D4919FF79650042842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
