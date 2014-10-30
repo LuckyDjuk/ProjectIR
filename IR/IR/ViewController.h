@@ -10,15 +10,17 @@
 #import "HumanModel.h"
 #import "Constants.h"
 
-@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
+@interface ViewController : UIViewController <UIGestureRecognizerDelegate, CLLocationManagerDelegate>
 
 
 @property (strong, nonatomic) HumanModel* human;
+@property (strong, nonatomic) CLLocationManager* locationManager;
 
 -(void)handleSwipe:(UIGestureRecognizer*)swipe;
 
 -(IBAction)updateCurrentlySelectedPart:(UIButton*)sender;
 -(IBAction)addInjuryType:(id)sender;
+-(void)addMenu;
 
 
 @end

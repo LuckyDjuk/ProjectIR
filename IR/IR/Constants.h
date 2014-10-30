@@ -11,6 +11,4 @@
 
 #define NUM_OF_BODY_PARTS 5
 
-
-
 #endif
