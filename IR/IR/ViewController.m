@@ -118,12 +118,10 @@
 
 -(IBAction)updateCurrentlySelectedPart:(UIButton*)sender
 {
-    
     currentlySelectedPart = (NSInteger)sender.tag;
     
     NSLog(@"Currently selected part updated to: %ld", (long)currentlySelectedPart);
-    
-    
+
 }
 
 -(IBAction)addInjuryType:(UIButton*)sender
@@ -139,8 +137,6 @@
         
         NSLog(@"%@", human.injuries);
     }
-    
-    
     
 }
 
