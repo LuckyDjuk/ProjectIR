@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F347DED71A023F6B005D4B49 /* PersonDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F347DED61A023F6B005D4B49 /* PersonDataViewController.m */; };
 		F3620D2419FF79650042842D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3620D2319FF79650042842D /* main.m */; };
 		F3620D2719FF79650042842D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3620D2619FF79650042842D /* AppDelegate.m */; };
 		F3620D2A19FF79650042842D /* IR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3620D2819FF79650042842D /* IR.xcdatamodeld */; };
@@ -184,6 +185,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F347DED51A023F6B005D4B49 /* PersonDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataViewController.h; sourceTree = "<group>"; };
+		F347DED61A023F6B005D4B49 /* PersonDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataViewController.m; sourceTree = "<group>"; };
 		F3620D1E19FF79650042842D /* IR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3620D2219FF79650042842D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3620D2319FF79650042842D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -404,14 +407,16 @@
 				F3620D2C19FF79650042842D /* ViewController.m */,
 				F3620D2E19FF79650042842D /* Main.storyboard */,
 				F3620D4A19FF7A780042842D /* Constants.h */,
+				F347DED51A023F6B005D4B49 /* PersonDataViewController.h */,
+				F347DED61A023F6B005D4B49 /* PersonDataViewController.m */,
 				F3620D4B19FF7A780042842D /* HumanModel.h */,
-				F3620D5119FF7AFC0042842D /* Images 2 */,
 				F3620D4C19FF7A780042842D /* HumanModel.m */,
 				F3620D4D19FF7A780042842D /* InjuryModel.h */,
 				F3620D4E19FF7A780042842D /* InjuryModel.m */,
 				F3620D3119FF79650042842D /* Images.xcassets */,
 				F3620D3319FF79650042842D /* LaunchScreen.xib */,
 				F3620D2819FF79650042842D /* IR.xcdatamodeld */,
+				F3620D5119FF7AFC0042842D /* Images 2 */,
 				F3620D2119FF79650042842D /* Supporting Files */,
 			);
 			path = IR;
@@ -941,6 +946,7 @@
 				F3620D4F19FF7A780042842D /* HumanModel.m in Sources */,
 				F3620D2719FF79650042842D /* AppDelegate.m in Sources */,
 				F3620D5019FF7A780042842D /* InjuryModel.m in Sources */,
+				F347DED71A023F6B005D4B49 /* PersonDataViewController.m in Sources */,
 				F3620D2A19FF79650042842D /* IR.xcdatamodeld in Sources */,
 				F3620D2D19FF79650042842D /* ViewController.m in Sources */,
 				F3620D2419FF79650042842D /* main.m in Sources */,
@@ -1134,6 +1140,7 @@
 				F3620D4619FF79650042842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3620D4719FF79650042842D /* Build configuration list for PBXNativeTarget "IRTests" */ = {
 			isa = XCConfigurationList;
@@ -1142,6 +1149,7 @@
 				F3620D4919FF79650042842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

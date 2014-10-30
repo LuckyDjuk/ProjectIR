@@ -18,7 +18,6 @@
         self.injuryTypeName = @"Not set";
         self.bodyPartName = @"Not set";
     }
-    
     return self;
 }
 

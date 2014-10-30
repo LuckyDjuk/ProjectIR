@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 #import "InjuryModel.h"
+#include<unistd.h>
+#include<netdb.h>
 
 @interface HumanModel : NSObject
 
@@ -17,13 +19,19 @@
 @property (strong, nonatomic) NSString* address;
 @property (strong, nonatomic) NSString* phoneNumber;
 @property (strong, nonatomic) NSString* countryOfResidence;
-@property (strong, nonatomic) NSDate* dateOfBirth;
+@property (strong, nonatomic) NSString* dateOfBirth;
 @property (strong, nonatomic) NSDate* timeOfAccident;
 @property (strong, nonatomic) CLLocation* locationOfAccident;
 @property (strong, nonatomic) NSMutableArray* injuries;
 
 
 -(instancetype)init;
++(instancetype)sharedHuman;
+-(void)submitHumanToWebService;
+-(void)deleteHuman;
+-(BOOL)isNetworkAvailable;
+
+
 
 
 @end
