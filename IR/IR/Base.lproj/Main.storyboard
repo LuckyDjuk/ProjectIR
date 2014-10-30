@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7BK-HL-pYk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useTraitCollections="YES" initialViewController="7BK-HL-pYk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -56,8 +56,21 @@
                                     <action selector="addInjuryType:" destination="uVU-qk-zal" eventType="touchUpInside" id="GtW-DP-YL2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-P9-g3e">
-                                <rect key="frame" x="171" y="132" width="42" height="21"/>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebZ-Y2-hFu">
+                                <rect key="frame" x="304" y="335" width="207" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="JiV-dj-x5J"/>
+                                    <constraint firstAttribute="width" constant="207" id="Tel-ln-dPn"/>
+                                </constraints>
+                                <state key="normal" image="fheadwound.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addInjuryType:" destination="uVU-qk-zal" eventType="touchUpInside" id="OYy-BA-xfX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Nothing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-P9-g3e">
+                                <rect key="frame" x="161" y="132" width="61" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="I7w-mY-yQt"/>
                                     <constraint firstAttribute="width" constant="42" id="mO3-MX-P0f"/>

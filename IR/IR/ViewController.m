@@ -40,23 +40,16 @@
     
     BODY_PART_NAMES = @[@"Head",@"Face",@"Neck",@"Back",@"Thorax",@"Abdomen",@"Right clavicula and AC joint",@"Left clavicula and AC joint",@"Right shoulder",@"Left shoulder", @"Right humerous", @"Left humerous", @"Right elbow",@"Left elbow", @"Right under arm", @"Left under arm", @"Right wrist",@"Left wrist", @"Right hand", @"Left hand", @"Right pelvis",@"Left pelvis",@"Right hip", @"Left hip", @"Right femur", @"Left femur", @"Right knee", @"Left knee", @"Right lower leg", @"Left lower leg",@"Right ankle", @"Left ankle", @"Right foot", @"Left foot"];
     
-    NSLog(@"%lu, %lu", (unsigned long)BODY_PART_NAMES.count, (unsigned long)BODY_PART_IDS.count);
-    
-
-    UIVisualEffect *blurEffect;
-    blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-    
-    UIVisualEffectView *visualEffectView;
-    visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
-    
-    visualEffectView.frame = self.view.bounds;
+   // NSLog(@"%lu, %lu", (unsigned long)BODY_PART_NAMES.count, (unsigned long)BODY_PART_IDS.count);
+    human = [[HumanModel alloc] init];
+    /*visualEffectView.frame = self.view.bounds;
     
     UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100 , 100, 100)];
     btn.titleLabel.text = @"Test";
     
     [visualEffectView.contentView addSubview:btn];
     
-    [self.view addSubview:visualEffectView];
+    [self.view addSubview:visualEffectView];*/
     
     
     
@@ -103,7 +96,7 @@
         //NSLog(@"Swiped direction right.");
         
         [self.navigationController popViewControllerAnimated:YES];
-       // NSLog(@"%@",self.navigationController.viewControllers);
+   // NSLog(@"Currently selected part updated to: %ld", (long)currentlySelectedPart);
     }
 }
 
